@@ -1,0 +1,139 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="Theme.NoShadow" parent="@android:style/Theme.NoTitleBar">
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light">
+    </style>
+
+    <color name="White">#FFFFFF</color>
+    <color name="Black">#000000</color>
+    <color name="Red">#FF0000</color>
+    <color name="Green">#009900</color>
+    <color name="Blue">#3366FF</color>
+    <color name="OffWhite">#edf3f7</color>
+    <color name="Primary1_Maroon">#a83d60</color>
+    <color name="Primary2_Green">#3fd42f</color>
+    <color name="Primary3_Orange">#f05724</color>
+    <color name="Primary4_Purple">#905aa1</color>
+    <color name="Primary5_Gray">#544f61</color>
+
+    <style name="ActionBar" parent="ThemeOverlay.AppCompat.ActionBar">
+        <item name="android:displayOptions">homeAsUp</item>
+    </style>
+
+    <style name="trainStationInfoBarLabel">
+        <item name="android:gravity">top|left</item>
+        <item name="android:layout_gravity">top|left</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:textColor">@color/Black</item>
+        <item name="android:textSize">10dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginBottom">3dp</item>
+    </style>
+
+    <style name="trainStationInfoBarValue">
+        <item name="android:textColor">@color/Black</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:layout_gravity">left|center_vertical</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:textSize">15dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginBottom">3dp</item>
+        <item name="android:layout_marginTop">3dp</item>
+    </style>
+
+    <style name="trainStationActionLabel">
+        <item name="android:textColor">@color/Primary3_Orange</item>
+        <item name="android:textSize">15dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginTop">10dp</item>
+    </style>
+
+    <style name="trainStationTimingLabel">
+        <item name="android:textColor">@color/Primary3_Orange</item>
+        <item name="android:textSize">15dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginTop">10dp</item>
+    </style>
+
+    <declare-styleable name="FloatingActionButton">
+        <attr name="drawable" format="integer"/>
+        <attr name="buttoncolor" format="color"/>
+        <attr name="shadowRadius" format="float"/>
+        <attr name="shadowDx" format="float"/>
+        <attr name="shadowDy" format="float"/>
+        <attr name="shadowColor" format="integer"/>
+    </declare-styleable>
+
+    <style name="aboutWebsiteLinkButton">
+        <item name="android:textColor">@color/Blue</item>
+        <item name="android:textSize">15dp</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:layout_marginBottom">10dp</item>
+    </style>
+
+    <style name="aboutOtherLinkButton">
+        <item name="android:textColor">@color/Black</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:layout_alignParentStart">true</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:paddingLeft">30dp</item>
+
+    </style>
+
+    <style name="Divider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">2dp</item>
+        <item name="android:background">?android:attr/listDivider</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_marginRight">20dp</item>
+    </style>
+
+    <style name="loginButton">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/Black</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:background">@android:color/darker_gray</item>
+        <item name="android:layout_marginTop">30dp</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+    <style name="facebookLoginButton">
+        <item name="android:background">@color/facebook_blue</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:layout_marginTop">50dp</item>
+    </style>
+    <style name="googleLoginButton">
+        <item name="android:background">@color/google_red</item>
+        <item name="android:layout_marginRight">20dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginTop">50dp</item>
+    </style>
+
+    <style name="popup_table_entry">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">15dp</item>
+        <item name="android:textColor">"@color/White</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="popup_table_linearlayout">
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+    </style>
+</resources>

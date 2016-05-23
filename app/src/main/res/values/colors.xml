@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="facebook_blue" type="color">#3b5b96</item>
+    <item name="google_red" type="color">#d94636</item>
+</resources>

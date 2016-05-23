@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Revolutionizing the way we travel"
+        android:id="@+id/about_moto"
+        android:textSize="15dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="25dp"
+        android:gravity="top|center_horizontal"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:text="@string/fixmytrip_link"
+        android:id="@+id/aboutWebsiteButton"
+        style="@style/aboutWebsiteLinkButton"
+        android:layout_below="@+id/about_moto"
+        android:layout_centerHorizontal="true" />
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dial_train"
+        android:id="@+id/aboutDialTriRailButton"
+        android:layout_below="@+id/aboutWebsiteButton"
+
+        style="@style/aboutOtherLinkButton"
+        />
+    <View style="@style/Divider"
+          android:id="@+id/aboutDivider0"
+          android:layout_below="@+id/aboutDialTriRailButton"/>
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/google_play"
+        android:id="@+id/aboutGooglePlayButton"
+        android:layout_below="@+id/aboutDivider0"
+
+        style="@style/aboutOtherLinkButton"
+        />
+    <View style="@style/Divider"
+        android:id="@+id/aboutDivider1"
+        android:layout_below="@+id/aboutGooglePlayButton"/>
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/about_facebook_link"
+        android:id="@+id/aboutFacebookButton"
+        android:layout_below="@+id/aboutDivider1"
+        style="@style/aboutOtherLinkButton"
+        />
+    <View style="@style/Divider"
+        android:id="@+id/aboutDivider2"
+        android:layout_below="@+id/aboutFacebookButton"/>
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Tweet to us"
+        android:id="@+id/aboutTwitterButton"
+        android:layout_below="@+id/aboutDivider2"
+        style="@style/aboutOtherLinkButton"
+        />
+    <View style="@style/Divider"
+        android:id="@+id/aboutDivider3"
+        android:layout_below="@+id/aboutTwitterButton"/>
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Legal"
+        android:id="@+id/aboutLegalButton"
+        android:layout_below="@+id/aboutDivider3"
+        style="@style/aboutOtherLinkButton"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="1.0"
+        android:id="@+id/about_version_number"
+        android:layout_gravity="center_horizontal"
+        android:gravity="bottom"
+        android:paddingBottom="15dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        />
+
+
+
+
+</RelativeLayout>
